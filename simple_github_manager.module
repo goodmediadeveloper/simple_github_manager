@@ -1,0 +1,37 @@
+<?php
+
+/**
+ * @file
+ * Primary module hooks for Simple Github Manager module.
+ *
+ * @DCG
+ * This file is no longer required in Drupal 8.
+ * @see https://www.drupal.org/node/2217931
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function simple_github_manager_theme() {
+  return [
+    'simple_github_manager' => [
+      'render element' => 'form',
+    ],
+  ];
+}
+
+
+/**
+ * @param $variables
+ * Implements hook_page_attachments()
+ */
+function simple_github_manager_page_attachments(&$variables) {
+  //  $current_path = \Drupal::service('path.current')->getPath();
+  //  if($current_path == '/simple-gitlab-manager'){
+  $variables['#attached']['library'][] =  'simple_github_manager/simple_github_manager';
+  //  }
+}
+
+
+
+

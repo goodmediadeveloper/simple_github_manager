@@ -1,0 +1,33 @@
+.simple_gitlab_manager__capt {
+  margin-bottom: 15px !important;
+}
+.groups_list {
+  padding-left: 0 !important;
+}
+.groups_list__item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(228, 245, 250, 0.07);
+  border: 1px solid #b8b8b8;
+  padding: 10px 5px;
+  margin-bottom: 5px;
+  border-radius: 3px;
+}
+.btn_link {
+  background: none !important;
+  outline: none !important;
+  border: none !important;
+  cursor: pointer;
+  margin-left: 5px;
+  color: #0a65aa !important;
+  font-weight: 600 !important;
+
+}
+.btn_link:hover {
+  text-decoration: underline !important;
+}
+
+.btn_back {
+  margin: 25px 0 !important;
+}

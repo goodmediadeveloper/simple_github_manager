@@ -1,0 +1,8 @@
+simple_github_manager.form:
+  path: '/simple-github-manager'
+  defaults:
+    _title: 'Simple github manager'
+    _form: 'Drupal\simple_github_manager\Form\SimpleGithubManagerForm'
+  requirements:
+    _permission: 'access content'
+

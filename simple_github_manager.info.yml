@@ -1,0 +1,5 @@
+name: Simple Github Manager
+type: module
+description: The simple module with function adding and deleting repositories GitHub
+package: custom
+core: 8.x

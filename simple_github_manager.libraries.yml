@@ -1,0 +1,12 @@
+# Custom module library for general purposes.
+simple_github_manager:
+  js:
+    js/simple-github-manager.js: {}
+  css:
+    component:
+      css/simple-github-manager.css: {}
+  dependencies:
+#    - core/drupalSettings
+#    - simple_gitlab_manager/jquery-labelauty
+
+
